@@ -1,0 +1,171 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Your Adventure Blog</title>
+    <link rel="stylesheet" href="styles.css">
+</head>
+<body>
+    <!-- Hero Section -->
+    <header class="hero">
+        <h1>Trail Explorer</h1>
+        <p>Adventures One Step at a Time</p>
+        <div class="search-btn">
+            <svg xmlns="http://www.w3.org/2000/svg" width="20" height="20" viewBox="0 0 24 24" fill="none" stroke="white" stroke-width="2" stroke-linecap="round" stroke-linejoin="round">
+                <circle cx="11" cy="11" r="8"></circle>
+                <line x1="21" y1="21" x2="16.65" y2="16.65"></line>
+            </svg>
+        </div>
+    </header>
+    
+    <!-- Navigation -->
+    <nav>
+        <div class="container">
+            <ul>
+                <li><a href="#">HOME</a></li>
+                <li><a href="#">TRIP REPORTS</a></li>
+                <li><a href="#">STORIES</a></li>
+                <li><a href="#">ROUTES</a></li>
+                <li><a href="#">ABOUT</a></li>
+            </ul>
+        </div>
+    </nav>
+    
+    <!-- Trip Reports Section -->
+    <section>
+        <div class="container">
+            <h2 class="section-header">TRIP REPORTS</h2>
+            <div class="grid">
+                <!-- Trip Report 1 -->
+                <div class="grid-item">
+                    <img src="/api/placeholder/400/300" alt="Mountain peak with snow">
+                    <div class="grid-caption">Mt. Baker, North Ridge</div>
+                </div>
+                
+                <!-- Trip Report 2 -->
+                <div class="grid-item">
+                    <img src="/api/placeholder/400/300" alt="Hiking trail in forest">
+                    <div class="grid-caption">Granite Mountain, West Face</div>
+                </div>
+                
+                <!-- Trip Report 3 -->
+                <div class="grid-item">
+                    <img src="/api/placeholder/400/300" alt="Snowy landscape">
+                    <div class="grid-caption">Rainbow Mountain Traverse</div>
+                </div>
+            </div>
+        </div>
+    </section>
+    
+    <!-- Stories Section -->
+    <section>
+        <div class="container">
+            <h2 class="section-header">STORIES</h2>
+            <div class="sidebar-container">
+                <div class="story-list">
+                    <!-- Story 1 -->
+                    <div class="story-item">
+                        <img src="/api/placeholder/400/300" alt="Granite Mountain">
+                        <div class="story-content">
+                            <h3>Granite Mountain, West Face</h3>
+                            <div class="story-meta">Posted on April 18, 2025</div>
+                            <p>An evening adventure skiing reverse corn into the sunset on Granite Mountain.</p>
+                            <a href="#" class="read-more">Read More</a>
+                        </div>
+                    </div>
+                    
+                    <!-- Story 2 -->
+                    <div class="story-item">
+                        <img src="/api/placeholder/400/300" alt="Matier and Slalok Peaks">
+                        <div class="story-content">
+                            <h3>Matier, NW Face + Slalok, N Face</h3>
+                            <div class="story-meta">Posted on April 13, 2025</div>
+                            <p>An excellent linkup of two classic peaks and ski lines on the Duffey Highway in BC.</p>
+                            <a href="#" class="read-more">Read More</a>
+                        </div>
+                    </div>
+                    
+                    <!-- Story 3 -->
+                    <div class="story-item">
+                        <img src="/api/placeholder/400/300" alt="Rainbow Mountain">
+                        <div class="story-content">
+                            <h3>Rainbow Mountain Ski Tour</h3>
+                            <div class="story-meta">Posted on April 12, 2025</div>
+                            <p>A scenic tour of Rainbow Mountain, with excellent views of Whistler and the entire Sea-to-Sky.</p>
+                            <a href="#" class="read-more">Read More</a>
+                        </div>
+                    </div>
+                </div>
+                
+                <!-- Sidebar -->
+                <div class="sidebar">
+                    <!-- Latest Runs Widget -->
+                    <div class="widget">
+                        <h3>Latest Runs</h3>
+                        <div class="activity-feed">
+                            <!-- Activity 1 -->
+                            <div class="activity-item">
+                                <div class="activity-icon">
+                                    <img src="/api/placeholder/40/40" alt="Run map">
+                                </div>
+                                <div class="activity-details">
+                                    <h4>Morning Trail Run</h4>
+                                    <div class="activity-stats">4.1 mi • 47:21 • 1,096 ft<br>Thursday, May 1, 2025</div>
+                                </div>
+                            </div>
+                            
+                            <!-- Activity 2 -->
+                            <div class="activity-item">
+                                <div class="activity-icon">
+                                    <img src="/api/placeholder/40/40" alt="Run map">
+                                </div>
+                                <div class="activity-details">
+                                    <h4>Evening Trail Run</h4>
+                                    <div class="activity-stats">4.0 mi • 43:47 • 1,063 ft<br>Monday, April 28, 2025</div>
+                                </div>
+                            </div>
+                        </div>
+                        
+                        <!-- Strava Logo -->
+                        <div class="strava-logo">
+                            <svg height="30" viewBox="3 2 14 10" xmlns="http://www.w3.org/2000/svg">
+                                <path d="M12.1021492,7.67435722 L9.55470831,2 L7,2 L12.1021492,12.1021607 L17.1852719,2 L14.6375804,2 L12.1021492,7.67435722 Z" fill="#FC4C02"></path>
+                                <path d="M7.75507788,2 L11.1585,9.0165 L14.4238881,2 L7.75507788,2 Z" fill="#FC4C02" fill-opacity=".5"></path>
+                            </svg>
+                        </div>
+                    </div>
+                    
+                    <!-- Trending Widget -->
+                    <div class="widget">
+                        <h3>Trending</h3>
+                        <ul class="popular-posts">
+                            <li>
+                                <a href="#">The Case for Abundant Recreation</a>
+                                <div class="view-count">257 views</div>
+                            </li>
+                            <li>
+                                <a href="#">Gunn Peak</a>
+                                <div class="view-count">157 views</div>
+                            </li>
+                            <li>
+                                <a href="#">Mt. Baker, North Ridge</a>
+                                <div class="view-count">62 views</div>
+                            </li>
+                        </ul>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </section>
+    
+    <!-- Footer -->
+    <footer>
+        <div class="container">
+            <p>&copy; 2025 Trail Explorer. All rights reserved.</p>
+        </div>
+    </footer>
+    
+    <script src="scripts.js"></script>
+</body>
+</html>
