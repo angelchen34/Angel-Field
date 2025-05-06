@@ -327,6 +327,39 @@ footer {
 }
 
 /* ===============================
+   ABOUT PAGE STYLES
+   =============================== */
+.about-content {
+    max-width: 800px;
+    margin: 0 auto;
+    padding: 20px;
+}
+
+.about-list {
+    list-style-type: none;
+    margin: 20px 0;
+}
+
+.about-list li {
+    margin-bottom: 10px;
+    padding-left: 25px;
+    position: relative;
+}
+
+.about-list li:before {
+    content: "•";
+    color: #0077cc;
+    position: absolute;
+    left: 0;
+}
+
+.contact-email {
+    color: #0077cc;
+    font-weight: 600;
+    margin-top: 10px;
+}
+
+/* ===============================
    MEDIA QUERIES
    =============================== */
 @media (max-width: 768px) {
