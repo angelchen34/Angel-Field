@@ -379,4 +379,34 @@ footer {
     .section-header:after {
         width: 20%;
     }
+
+    /* styles.css */
+
+/* ... your existing styles ... */
+
+.story-full-content p {
+    margin-bottom: 1.75em; 
+    /* Adjust this value as needed. '1.5em' means 1.5 times the current font size. You could also use pixels, e.g., '20px'. */
+    /* You could also add margin-top if you want space above as well, or just rely on the margin-bottom of the previous paragraph. */
+    /* line-height: 1.7; */ /* You can also adjust line-height for more space between lines within a paragraph if desired */
+}
+
+/* styles.css */
+
+/* ... your existing styles ... */
+
+.story-full-content img.story-inline-image {
+    max-width: 100%;      /* Ensures the image is responsive and doesn't overflow its container */
+    height: auto;         /* Maintains the image's aspect ratio */
+    display: block;       /* Makes the image a block element, allowing for centering with margins */
+    margin-top: 20px;     /* Adds space above the image */
+    margin-bottom: 20px;  /* Adds space below the image */
+    margin-left: auto;    /* Used with margin-right: auto to center a block element */
+    margin-right: auto;
+    border-radius: 5px;   /* Optional: if you want rounded corners like other elements */
+    box-shadow: 0 2px 8px rgba(0,0,0,0.1); /* Optional: adds a subtle shadow */
+}
+
+
+
 }
