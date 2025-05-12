@@ -396,7 +396,8 @@ footer {
 /* ... your existing styles ... */
 
 .story-full-content img.story-inline-image {
-    max-width: 100%;      /* Ensures the image is responsive and doesn't overflow its container */
+    /*max-width: 100%;      /* Ensures the image is responsive and doesn't overflow its container */
+    /*max-width: 700px; 
     height: auto;         /* Maintains the image's aspect ratio */
     display: block;       /* Makes the image a block element, allowing for centering with margins */
     margin-top: 20px;     /* Adds space above the image */
