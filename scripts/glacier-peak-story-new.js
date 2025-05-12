@@ -17,7 +17,7 @@ const glacierPeakStory = {
         <p>后面大概5英里局部比较困难, 有看到清晰的snow bridge雪桥, 底下真真切切是空的! 我们尽量沿着前人的脚印快速通过✅. 快到营地的最后2英里比较疲惫, 有不少陡然上升和陡然下降, 还有比较容易滑的沙路, 心里在想怎么绕了这么久还没有结束啊! 山怎么离我还是这么遥远! 最后一段还需要走20分钟雪路, 先下降一点再爬上一个高坡, 到达high comp 6,500' 附近.</p>
         <p>下午四点左右的太阳还是很烈, 我们赶紧把帐篷搭好了就开始躲进去午觉休息, 帐篷门外就正正对着南向的Glacier Peak. 我开心得喝着我的苹果果汁汽水, 背它上了high camp太不容易!! 晚上七点多的时候, 天还是特别亮, 我们开始做饭, 煮了红烧牛肉面(多加一个面饼加加餐!)和一份山房子(mountain house黑椒牛肉饭), 配一盒小胡萝卜. 之后发现了属于Glacier Peak的reflection lake, 山的倒影静静地映在一个季节性湖泊之上, 没有一点水波纹, 配上夕阳西下的golden hour, 我可得马上造型整上, 开始拍照. 玩到晚上九点也累, 天还是没有暗下来, 连头灯也没有用上就睡去了.</p>
         <p>第二天醒来时已经7点多了! 第一次外出背包行睡得如此香甜, 头灯还是没有用上, 太阳已经特别晒了. 我们吃了另一包红烧牛肉面和黑芝麻糊后就开始往前走走, 看到了white chuck glacier, 看上去特别温柔缓和(但不知道是不是真的温柔哈哈, 还是背后有险峻的地形?) 上午8点50分, 我们拔营开始往下撤退. 一路猛冲, 走了7英里后才第一次停下来在shelter区域下包休息, 补充食物. 下午3点15分正式出山, 完美结束Glacier Peak的high camp露营两天一夜之旅.</p>
-        <p><img src="../images/glacier-peak-route.png" alt="glacier-peak-route.png" class="story-inline-image">
+        <p><img src="../images/glacier-peak-route.png" alt="glacier-peak-route.png" class="story-inline-image" width="650">
         <em>Glacier Peak Trail Map</em></p>
         
         <h4>[我的大包配置]总重量12KG (26磅):</h4>
@@ -38,7 +38,7 @@ const glacierPeakStory = {
             <li>大力表扬Hoka Anacapa Mid GTX Hiking boots登山鞋, 走过了27英里的脚是不疼的, 是没有水泡的.</li>
         </ul>
         <p>今晚在网上冲浪的时候无意间看到了有一首写在这条徒步步道上的诗, 相传是有挪威神话的典故("West of Moon and East of Sun" ）</p>
-        <p><img src="../images/glacier-peak-poem.png" alt="glacier-peak-poem.png" class="story-inline-image">
+        <p><img src="../images/glacier-peak-poem.png" alt="glacier-peak-poem.png" class="story-inline-image" width="650">
         <em>The West of Moon and East of Sun, happen to find this poem on a random tree on the trail.</em></p>
     `
 };
