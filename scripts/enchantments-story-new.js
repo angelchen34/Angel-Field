@@ -1,0 +1,65 @@
+const { generateStoryPage } = require('./generate-story');
+
+const enchantmentsStory = {
+    TITLE: "Enchantment Thru Hike Trip",
+    SUBTITLE: "An epic journey through Washington's iconic alpine wonderland.",
+    HERO_IMAGE: "enchantments-larch-pan.jpg",
+    DATE: "May 11, 2025",
+    DESCRIPTION: "A detailed account of a strenuous yet rewarding thru-hike in the Enchantments, covering preparation, key trail sections like Aasgard Pass, gear used, and reflections on the iconic Washington trail, including a celebrated photo.",
+    CONTENT: `
+        <h3>Enchantment - 徒步穿越华州仙境湖 8/19</h3>
+        <p>基础数据: clocked in 20.47mi (All Trails上显示的是18mi), 上升约4,900ft, 下降约6,700ft. 其中最陡峭的部分当属Aasgard Pass, 1mi的短距离上升2,000ft.</p>
+        <p>最佳游玩时间: 金秋时节(10/15左右), 观赏金松 - Larches; 最喜欢的湖是inspiration lake和perfection lake.</p>
+        
+        <h4>如何准备这条步道?</h4>
+        <p>推荐以下的几条拉练型步道来模拟Enchantment: 如果可以舒服地走完以下步道, 可以比较自信地尝试一次Enchantment!</p>
+        <ol>
+            <li>North Fork Sauk Trail (18mi, 4,800ft) 这条可以approach Glacier Peak的步道可以拉练长距离爬山, 同时这个开始的5mi比较平缓, 可以模拟Enchantment的后半程 — Snow Lake区域, 可以体验那种又长又平还没有风景的绝望感觉. 这个步道的后半程有痛苦的上升switchback, 也可以磨砺Aasgard Pass的暴击上升感觉.</li>
+            <li>Vesper Peak - 这条步道的最后一部分爬大石头区域可以模拟Enchantment的5-7mi的感觉, 需要手脚并用地穿越巨石阵, 建议带个手套(第二次走Enchantment的时候把手套都磨秃了), 推荐带个头盔以防落石.</li>
+            <li>Cable Line或者Mailbox - 拉练cardio的好去处, 复刻心跳200迈的感觉, 每次转角都在猛烈喘气, 尽量让心跳控制在"舒服且不累"的区域. 走Aasgard Pass的时候可以健步如飞!</li>
+        </ol>
+        
+        <h4>带什么装备走这条步道?</h4>
+        <p>小肥柴的装备以供参考:</p>
+        <p>肥柴时尚穿搭: 中帮防水爬山鞋Hoka Mid-GTX Annacapa, 粉色焦下防晒衣, 始祖鸟Zeta LT, 西雅图凌峰社社服(黑底白字), 深蓝色优衣库运动legging, 登山杖, REI 18L小背包. Aasgard Pass后的core zone区域偏冷, 那边有高原小气候, 风比较大.</p>
+        <p>肥柴时尚背包内的物品: 滤水器(Befree 1L, 沿途水源充足, 不需要多背水, 保持有1L的水就可以了), 头灯(Mobi Garden), 水包2L, 佳得乐运动饮料, 复合维他命水, 零食若干(卫龙小鱼干, 花生, 板栗, 朋友带的PCC三明治, 樱桃, 糖果), 防晒霜, 墨镜, 遮阳帽, 爬山坐垫(Therm-a-Rest Z-Seat Pad, 坐下来就知道啥是肥宅舒服!!)</p>
+        
+        <h4>总结: 走这条步道的难点?</h4>
+        <br>
+        <ol>
+            <li>第一个难点是在第5mi左右的时候 - 急速上升的Aasgard Pass, 一定别走错了路(正确的路是一开始在小溪的左边上山, 后面有一个急速的右切). 记得提前下载好离线地图! 正确道路的Aasgard Pass真的不可怕(相信自己可以战胜以前的自己!!).</li>
+            <li>第二个难点是第7mi开始有许多横切巨石阵的急速下降, 个人感觉走这部分很伤膝盖, 膝盖脆弱的选手记得带好护膝, 掌握好下降速度 — 因为后面的长路漫漫, 要保存体力.</li>
+            <li>第三个难点是绝望的snow lake和switchbacks, 我们下午四点已经看到了snow lake, 但是!! 晚上九点才能出山!! 后半程的路下降的时候很没效率也没啥风景(过了Lake Viviane之后请大家稍稍拉低期望值).</li>
+        </ol>
+
+        <br>
+        <h4>肥柴的获奖照片</h4>
+        <p>Here's a particularly picture winning the NW Exposure Photo Contest:</p>
+        <figure>
+            <img src="../images/enchantments-larch-group.jpg" alt="Enchantments Larch Group under the Dragontail Peak" class="story-inline-image" width="650">
+            <figcaption>Enchantments Larch Group under the Dragontail Peak</figcaption>
+
+            <img src="../images/enchantments-larch-group2.jpg" alt="Enchantments Larch Group under the Dragontail Peak" class="story-inline-image" width="650">
+        </figure>
+
+        <p>Hooray! Your photo from <em>Enchantments</em> has won <strong>2nd Place</strong> in the Trail Family category of WTA's 2023 Northwest Exposure Photo Contest! I've attached it to this email so you know which specific photo was selected.</p>
+        <p>Your photo will appear in our winning announcement in January and in our annual calendar that comes out at the end of 2023. <strong>We ask that until we announce the winners in January that you please keep this news private for the sake of other entrants.</strong></p>
+        <p>We also have a few questions for you about your winning image that will help us put together our annual calendar and announcements. If you could provide me with answers to these questions before <strong>November 2</strong> that would be great.</p>
+        
+        <br>
+        <ol>
+            <li>Please describe your winning photo. What inspired you to take it? Why did you select this particular location? What techniques did you use to capture this image? When was this photo taken?</li>
+            <li>What do you like about this image?</li>
+            <li>What trail was this image taken on?</li>
+            <li>Please provide a short answer to "why are trails important to you?"</li>
+            <li>Tell us a bit about the hike that led up to this moment.</li>
+            <li>Please spell your full name as you would like it to appear in your photo credit. Please also include pronouns you use (ex: he/she/they). If anyone other than you is in the photos please provide the same information for all people pictured (if known).</li>
+            <li>Please confirm the address where we should mail your prizes.</li>
+            <li>In December we will be doing a press release of the winning photos to various outlets. Do you give us permission to share your photo and answers above with media outlets?</li>
+            <li>Please attach the highest resolution version of the photo you have available to your reply. <strong>Images should be without watermarks</strong> for printing in the calendar.</li>
+        </ol>
+    `
+};
+
+// Generate the story page
+generateStoryPage(enchantmentsStory); 
